@@ -1,0 +1,12 @@
+2 types of type casting:
+
+1. Implicit type casting: This type of casting is done automatically by the compiler. 
+2. Explicit type casting: This type of casting is done manually by the programmer.
+
+There are 2 types of explicit type casting:
+
+1. Narrow casting: This type of casting is done when a larger data type is converted to a smaller data type. 
+for ex: float can't be converted to int coz it loses its value.
+
+2. Broader casting: This type of casting is done when a smaller data type is converted to a larger data type.
+for ex: int can be converted to float coz it doesn't lose its value.
