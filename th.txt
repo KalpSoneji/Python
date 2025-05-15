@@ -1,0 +1,30 @@
+there are 3 types of operators:
+
+1. unary (not present in python)
+2. binary
+3. ternary
+
+there are 7 types of operators in python:
+
+1. arithmetic: + - * / % // **
+2. comparison: < > <= >= == !=
+3. logical: and or not
+4. assignment: += -= *= /= %= //= **=
+5. bitwise: & | ^ ~ << >>
+6. membership: in not in
+7. identity: is is not
+
+strings are immutable, no operation can be performed once it is declared
+
+len(variable)
+
+variable.upper() converts to uppercase
+variable.lower() converts to lowercase
+variable.title() makes every word's 1st character uppercase
+variable.capitalize() makes 1st character of string uppercase
+variable.swapcase() swaps case of string's each character
+
+variable.lstrip() removes whitespaces from left side of the string
+variable.rstrip() removes whitespaces from right side of the string
+variable.strip() removes whitespaces from both sides of the string
+
