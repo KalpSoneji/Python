@@ -1,3 +1,17 @@
+there are 5 data types in python:
+1. Integers
+2. float
+3. boolean
+4. nonetype
+5. string
+
+there are 3 conditional statements in python:
+1. if
+2. elif
+3. else
+
+it has match case instead of switch case
+
 there are 3 types of operators:
 
 1. unary (not present in python)
