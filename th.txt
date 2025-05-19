@@ -12,6 +12,17 @@ there are 3 conditional statements in python:
 
 it has match case instead of switch case
 
+it has a for loop and a while loop
+
+for i in range(start, end, increment/decrement):    
+    # code to be executed
+
+to iterate through whole variable, for i in range(len(variable)): 
+to iterate through whole variable reversed, for i in range(len(variable) - 1, -1, -1): 
+
+for i in variable:
+    # code to be executed
+
 there are 3 types of operators:
 
 1. unary (not present in python)
@@ -42,3 +53,45 @@ variable.lstrip() removes whitespaces from left side of the string
 variable.rstrip() removes whitespaces from right side of the string
 variable.strip() removes whitespaces from both sides of the string
 
+there are 4 types of data structures in python:
+1. lists
+2. tuples
+3. sets
+4. dictionaries
+
+lists:
+
+
+data type of list is list
+syntax: variable = [value1, value2, value3, ...]
+
+features:
+
+1. dynamic
+2. heterogeneous
+3. ordered
+4. mutable
+5. indexed
+6. allows duplicate elements
+7. iterable
+8. subscriptable
+
+list.append(value) adds value at the end of the list
+list.insert(index, value) adds value at the specified index and pushes the other values forward
+list.extend(list/string) adds all elements of the list to the current list, (takes any argument that is iterable)
+
+list.pop() removes the last element from the list
+list.pop(index) removes the element at the specified index
+list.remove(value) removes the first occurrence of value
+
+list.reverse() reverses the list
+list.count(value) returns the number of occurrences of value
+list.index(value) returns the index of the first occurrence of value
+list.copy() returns a copy of the list
+
+list.sort() sorts the list in ascending order
+list.sort(key=len) sorts the list based on the length of the elements
+list.sort(reverse=True) sorts the list in descending order
+list.sort(key=len, reverse=True) sorts the list based on the length of the elements in descending order
+
+list.clear() removes all elements from the list

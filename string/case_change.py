@@ -1,9 +1,11 @@
 text = input("Enter a string: ")
 
 for char in text:
-    if char >= 65 and char <= 90:
-        ord(char) += 32
-    elif char >= 97 and char <= 122:
-        ord(char) -= 32
-
-print(text)
+    if ord(char) >= 97 and ord(char) <= 122:
+        print(chr(ord(char)-32), end="")
+    elif char == ' ':
+        print(" ", end="")
+    else:
+        print(chr(ord(char)+32), end="")
+        
+# print(text)
