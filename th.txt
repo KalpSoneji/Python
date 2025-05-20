@@ -95,3 +95,15 @@ list.sort(reverse=True) sorts the list in descending order
 list.sort(key=len, reverse=True) sorts the list based on the length of the elements in descending order
 
 list.clear() removes all elements from the list
+
+there are nested lists data = [[1,'a'] [2, 'b']]
+
+list can be comprehended into a single line
+
+data2 = [i**3 for i in data if i % 2 == 0]  #for if
+
+data4 = ["+ve" if i > 0 else "-ve" for i in data] #for if, else
+
+print can be written in a different way
+
+print(f"My name is" {fname} {lname})
