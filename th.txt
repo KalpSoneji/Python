@@ -107,3 +107,34 @@ data4 = ["+ve" if i > 0 else "-ve" for i in data] #for if, else
 print can be written in a different way
 
 print(f"My name is" {fname} {lname})
+
+Tuple:
+
+almost same features as list
+
+Features:
+
+1. immutable
+2. faster and takes less memory
+3. less features than lists
+
+2 methods
+
+1. count
+2. index
+
+Dictionary:
+
+Iterable, subscriptable
+
+methods:
+
+1. dict.keys() used for getting keys
+2. dict.values() used for getting values
+3. dict.items() used for getting key value pairs, returns multiple tuples within a list
+4. dict.update({"key": "value", "key" :"value"}) used for updating the dictionary with multiple values
+5. dict.pop(key) removes the key value pair from the dictionary, returns the value
+6. dict.popitem() removes last pair from dictionary, 
+
+for single append, dict_name[key] = value
+
