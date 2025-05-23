@@ -1,9 +1,8 @@
 #string dictionary
 #if starts with s / len > 5 / palindrome add to new dict
 
-data = {"a" : "Kalp"}
+data = {"a" : "Kalp", "b" : "Vatsal", "c": "Harshita", "d" : "sujal", "e" : "madam"}
 new_dict = {}
-data.update({"b" : "Vatsal", "c": "Harshita", "d" : "sujal", "e" : "madam"})
 
 pairs = data.items()
 

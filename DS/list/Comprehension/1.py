@@ -10,4 +10,9 @@ data5 = ["abc", "def", "", None, False]
 
 data6 = [i for i in data5 if i] # "if i" checks each value, if its 0/None/False it doesn't accept
 
+print(data)
+print(data2)
+print(data3)
+print(data4)
+print(data5)
 print(data6)
