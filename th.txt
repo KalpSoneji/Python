@@ -138,3 +138,36 @@ methods:
 
 for single append, dict_name[key] = value
 
+Set:
+
+data type = set
+
+Features:
+
+1. Unordered
+2. mutable
+3. no duplicate values
+
+
+Methods:
+
+1. add() adds a value to the set
+2. update() adds multiple values to the set, takes an iterable input
+3. remove(value) removes a value from the set
+4. pop() removes a random value from the set
+5. discard(value) removes a value from the set, does not raise an error if the value is not present
+6. clear() removes all values from the set
+
+7. union() returns a new set with all elements from both sets
+8. intersection() returns a new set with elements common to both sets
+9. difference() returns a new set with elements in set1 but not in set2
+10. discard() removes a value from the set if it exists
+11. len() returns the number of elements in the set
+12. set() returns a new set with all elements from the set
+13. isdisjoint() returns True if set1 and set2 have no elements in common
+14. issuperset() returns True if set1 has all elements of set2
+15. issubset() returns True if set1 is a subset of set2
+16. copy() returns a copy of the set
+17. frozen set is an immutable set
+18. set comprehension is used to create a set from a list
+

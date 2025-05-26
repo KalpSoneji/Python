@@ -10,3 +10,6 @@ for i, j in dict.items():
         
 print(dict1)
 
+print(dict.update(dict1))
+
+print(dict.values())
