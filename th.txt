@@ -53,6 +53,28 @@ variable.lstrip() removes whitespaces from left side of the string
 variable.rstrip() removes whitespaces from right side of the string
 variable.strip() removes whitespaces from both sides of the string
 
+variable.startswith() checks if string starts with a certain word
+variable.endswith() checks if string ends with a certain word
+
+variable.find() finds the index of a certain word in the string
+variable.replace() replaces a certain word with another word
+variable.split() splits the string into a list of words
+variable.join() joins a list of words into a string
+variable.count() counts the number of times a certain word appears in the string
+
+variable.isalnum() checks if string contains only alphanumeric characters
+variable.isalpha() checks if string contains only alphabetic characters
+variable.isdigit() checks if string contains only digits
+
+variable.islower() checks if string contains only lowercase characters
+variable.isupper() checks if string contains only uppercase characters
+
+variable.isspace() checks if string contains only whitespace characters
+
+variable.istitle() checks if string contains only title case characters
+
+variable.isprintable() checks if string contains only printable characters
+
 there are 4 types of data structures in python:
 1. lists
 2. tuples
@@ -62,7 +84,7 @@ there are 4 types of data structures in python:
 lists:
 
 
-data type of list is list
+data type of list is list. CSV between square brackets.
 syntax: variable = [value1, value2, value3, ...]
 
 features:
@@ -125,9 +147,9 @@ Features:
 
 Dictionary:
 
-Iterable, subscriptable
+Mutable, iterable, subscriptable
 
-methods:
+Methods:
 
 1. dict.keys() used for getting keys
 2. dict.values() used for getting values
@@ -148,7 +170,6 @@ Features:
 2. mutable
 3. no duplicate values
 
-
 Methods:
 
 1. add() adds a value to the set
@@ -158,9 +179,9 @@ Methods:
 5. discard(value) removes a value from the set, does not raise an error if the value is not present
 6. clear() removes all values from the set
 
-7. union() returns a new set with all elements from both sets
-8. intersection() returns a new set with elements common to both sets
-9. difference() returns a new set with elements in set1 but not in set2
+7. union() returns a new set with all elements from both sets, we can use | instead
+8. intersection() returns a new set with elements common to both sets, we can use & instead
+9. difference() returns a new set with elements in set1 but not in set2, we can use - instead
 10. discard() removes a value from the set if it exists
 11. len() returns the number of elements in the set
 12. set() returns a new set with all elements from the set
@@ -170,4 +191,23 @@ Methods:
 16. copy() returns a copy of the set
 17. frozen set is an immutable set
 18. set comprehension is used to create a set from a list
+
+Functions:
+
+There are 2 types of functions:
+1. user - defined functions
+2. built-in functions
+
+4 types of user - defined functions:
+
+1. no arg no return type
+2. no arg with return type
+3. with arg no return type
+4. with arg with return type
+
+Syntax:
+
+def fnc_name(args):
+    code
+    return value
 
