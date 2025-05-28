@@ -211,3 +211,6 @@ def fnc_name(args):
     code
     return value
 
+*args
+
+**kwargs

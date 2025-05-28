@@ -61,5 +61,6 @@ def calculator():
 
             case _:
                 print("Invalid choice! Please try again.")
+                break
 
 calculator()
