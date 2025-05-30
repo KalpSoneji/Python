@@ -214,3 +214,13 @@ def fnc_name(args):
 *args
 
 **kwargs
+
+
+
+
+
+Lambda:
+
+fnc name = lambda args : print / just return value without the keyword return
+
+elif doesn't work with lambda, use lambda for single line if else, makes more sense
