@@ -1,0 +1,9 @@
+Product Name:  Pen
+Product Price: 20
+----------------------
+Product Name:  Book
+Product Price: 100
+----------------------
+Product Name:  Compass
+Product Price: 400
+----------------------
